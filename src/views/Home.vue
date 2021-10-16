@@ -30,7 +30,7 @@ export default {
   name: 'Home',
   data() {
     return {
-      
+      products: this.$store.state.products
     }
   },
 
